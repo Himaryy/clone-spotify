@@ -1,0 +1,24 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore environment variables
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Ignore build output
+dist/
+.vite/
+.next/
+out/
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Ignore editor and system files
+.DS_Store
+.vscode/
+.idea/
